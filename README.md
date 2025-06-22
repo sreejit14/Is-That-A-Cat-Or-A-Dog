@@ -1,5 +1,5 @@
 # Is-That-A-Cat-Or-A-Dog
-# Is-That-A-Cat-Or-A-Dog
+
 A full-stack image classification application that uses a Keras-trained neural network to distinguish between cats and dogs, served through a Flask API and powered by a sleek React frontend.
 ![Recording2025-06-23002002-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2e7f1aec-4b63-4c91-b169-c8350bc74129)
 
