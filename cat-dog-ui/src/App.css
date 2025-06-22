@@ -1,0 +1,98 @@
+/* Improved Dark Theme App.css */
+
+body {
+  background: #181c24;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.app-container {
+  padding: 48px 32px;
+  background-color: #23283a;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  max-width: 480px;
+  margin: 60px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #f7ca18;
+  font-family: 'Montserrat', 'Segoe UI', 'Arial', sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+h3 {
+  color: #f7ca18;
+  font-family: 'Montserrat', 'Segoe UI', 'Arial', sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+  font-weight: 700;
+}
+.image-preview {
+  margin: 16px 0;
+  max-width: 220px;
+  max-height: 220px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  object-fit: cover;
+  border: 2px solid #4f8cff;
+}
+input[type="file"] {
+  margin: 24px 0 16px 0;
+  padding: 12px;
+  border: 2px solid #4f8cff;
+  border-radius: 6px;
+  background: #23283a;
+  color: #f7f7f7;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #4f8cff;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+  margin-bottom: 12px;
+}
+
+button:hover {
+  background-color: #375a7f;
+}
+
+.result {
+  margin-top: 28px;
+  padding: 16px;
+  border: 1px solid #353b4a;
+  border-radius: 8px;
+  background-color: #1a1e2d;
+  color: #f7f7f7;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+strong {
+  color: #f7ca18;
+}
