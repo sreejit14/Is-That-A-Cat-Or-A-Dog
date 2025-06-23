@@ -4,6 +4,9 @@ A full-stack image classification application that uses a Keras-trained neural n
 ![Recording2025-06-23002002-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/3896e68d-1d38-4ddc-b9cf-1f59e97b1ed0)
 
 
+LIVE DEMO:
+https://is-that-a-cat-or-a-dog-mv7e63dcy7bzufkqrd5brp.streamlit.app/
+
 
 🧠 Model Details
 - Architecture:Convolutional Neural Network (ANN)
