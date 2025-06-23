@@ -3,16 +3,15 @@
 A full-stack image classification application that uses a Keras-trained neural network to distinguish between cats and dogs, served through a Flask API and powered by a sleek React frontend.
 ![Recording2025-06-23002002-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2e7f1aec-4b63-4c91-b169-c8350bc74129)
 
-🚀 Live Demo
-
-👉 Coming soon: hosted on Render + GitHub Pages
 
 🧠 Model Details
-- Architecture: Custom Artificial Neural Network (ANN)
+- Architecture:Convolutional Neural Network (ANN)
 - Training Data: 25,000 labeled images from Kaggle’s Dogs vs Cats dataset
 - Input Size: 150x150 RGB images
 - Framework: TensorFlow/Keras
 - Preprocessing: Rescaling, resizing, normalization,flatten,conv2D
+![ChatGPT Image Jun 23, 2025, 01_31_05 PM](https://github.com/user-attachments/assets/f65659cf-66c2-42ea-9129-e2d2ee931947)
+
 
 🛠️ Tech Stack
 
