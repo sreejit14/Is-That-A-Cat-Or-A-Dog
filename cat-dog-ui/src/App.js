@@ -23,7 +23,7 @@ function App() {
     formData.append('file', image);
 
     try {
-      const res = await axios.post('http://localhost:5000/predict', formData);
+      const res = await axios.post('https://is-that-a-cat-or-a-dog.onrender.com/predict', formData);
       setResult(res.data);
     } catch (err) {
       alert('Error uploading image');
